@@ -10,6 +10,11 @@ export default makeStyles((theme) => ({
       flexWrap: 'wrap',
     },
   },
+  posterGrid: {
+    [theme.breakpoints.down('md')]: {
+      display: 'flex',
+    },
+  },
   poster: {
     borderRadius: '20px',
     boxShadow: '0.5em 1em 1em rgb(64, 64, 70)',
