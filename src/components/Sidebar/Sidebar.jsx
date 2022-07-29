@@ -11,7 +11,7 @@ import genreIcons from '../../assets/genres';
 
 const categories = [
   { label: 'Popular', value: 'popular' },
-  { label: 'Top rated', value: 'top_rated' },
+  { label: 'Top Rated', value: 'top_rated' },
   { label: 'Upcoming', value: 'upcoming' },
 ];
 

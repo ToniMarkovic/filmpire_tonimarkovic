@@ -167,7 +167,7 @@ const MovieInformation = () => {
         open={open}
         onClose={() => setOpen(false)}
       >
-        {data?.videos?.results.length > 0 && (
+        {data?.videos?.results?.length > 0 ? (
           <iframe
             autoPlay
             className={classes.video}
@@ -176,7 +176,7 @@ const MovieInformation = () => {
             src={`https://www.youtube.com/embed/${data.videos.results[0].key}`}
             allow="autoplay"
           />
-        )}
+        ) : <Typography variant="h4" style={{ color: 'white' }}>Trailer is not available. Press Esc to go back</Typography>}
       </Modal>
     </Grid>
   );
