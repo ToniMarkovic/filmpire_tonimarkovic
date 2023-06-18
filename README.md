@@ -35,11 +35,11 @@ Movie application where users can discover titles within specific categories and
 
 
 ## Project Status
-Project is _no longer being worked on.
+The Project is _no longer being worked on.
 
 
 ## Room for Improvement
-Currently there are some issues with login.
+Currently, there are some log in issues.
 
 
 ## Acknowledgements
